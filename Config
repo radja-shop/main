@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCKYbKn0JSbLUHZSU8gGy__xOq79LFRAUc",
+    authDomain: "radja-shop.firebaseapp.com",
+    projectId: "radja-shop",
+    storageBucket: "radja-shop.appspot.com",
+    messagingSenderId: "37103739966",
+    appId: "1:37103739966:web:d2e6410dddc6edb80d9d6f",
+    measurementId: "G-SL699TFQ9R"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
